@@ -1,0 +1,11 @@
+requires:
+{
+    api:
+    {
+        le_spi = ${LEGATO_ROOT}/interfaces/le_spi.api
+    }
+}
+sources:
+{
+        codeforSPI.c
+}

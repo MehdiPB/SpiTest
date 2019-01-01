@@ -1,0 +1,18 @@
+executables:
+{
+	spiFORspi = ( ComponentForSPI )
+}
+
+processes:
+{
+	run:
+	{
+		( spiFORspi )
+	}
+}
+bindings:
+{
+    spiFORspi.ComponentForSPI.le_spi -> spiService.le_spi
+}
+
+start:  manual
